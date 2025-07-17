@@ -1,0 +1,835 @@
+2025-07-14T04:17:01.217663-04:00 daria-VirtualBox CRON[2193]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-14T04:17:01.226927-04:00 daria-VirtualBox CRON[2193]: pam_unix(cron:session): session closed for user root
+2025-07-14T05:17:01.345224-04:00 daria-VirtualBox CRON[2325]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-14T05:17:01.356175-04:00 daria-VirtualBox CRON[2325]: pam_unix(cron:session): session closed for user root
+2025-07-17T03:10:01.546578-04:00 daria-VirtualBox CRON[4977]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-17T03:10:01.553799-04:00 daria-VirtualBox CRON[4977]: pam_unix(cron:session): session closed for user root
+2025-07-17T03:17:01.569214-04:00 daria-VirtualBox CRON[5081]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-17T03:17:01.577291-04:00 daria-VirtualBox CRON[5081]: pam_unix(cron:session): session closed for user root
+2025-07-17T04:17:01.776020-04:00 daria-VirtualBox CRON[6178]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-17T04:17:01.781774-04:00 daria-VirtualBox CRON[6178]: pam_unix(cron:session): session closed for user root
+2025-07-17T05:17:01.895663-04:00 daria-VirtualBox CRON[7613]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-17T05:17:01.902668-04:00 daria-VirtualBox CRON[7613]: pam_unix(cron:session): session closed for user root
+2025-07-17T06:17:01.982865-04:00 daria-VirtualBox CRON[163521]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-17T06:17:01.993002-04:00 daria-VirtualBox CRON[163521]: pam_unix(cron:session): session closed for user root
+Apr 15 00:54:33 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Apr 15 01:17:01 daria-VirtualBox CRON[3630]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Apr 15 01:17:01 daria-VirtualBox CRON[3631]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Apr 15 01:17:01 daria-VirtualBox CRON[3630]: pam_unix(cron:session): session closed for user root
+Apr 15 02:17:01 daria-VirtualBox CRON[3917]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Apr 15 02:17:01 daria-VirtualBox CRON[3918]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Apr 15 02:17:01 daria-VirtualBox CRON[3917]: pam_unix(cron:session): session closed for user root
+Apr 22 01:08:40 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+Apr 22 01:08:40 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+Apr 22 01:08:40 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+Apr 22 01:08:40 daria-VirtualBox anacron[618]: Anacron 2.3 started on 2025-04-22
+Apr 22 01:08:40 daria-VirtualBox anacron[618]: Will run job `cron.daily' in 5 min.
+Apr 22 01:08:40 daria-VirtualBox anacron[618]: Will run job `cron.weekly' in 10 min.
+Apr 22 01:08:40 daria-VirtualBox anacron[618]: Jobs will be executed sequentially
+Apr 22 01:08:40 daria-VirtualBox (cron)[622]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Apr 22 01:08:40 daria-VirtualBox cron[622]: (CRON) INFO (pidfile fd = 3)
+Apr 22 01:08:40 daria-VirtualBox cron[622]: (CRON) INFO (Running @reboot jobs)
+Apr 22 01:13:40 daria-VirtualBox anacron[618]: Job `cron.daily' started
+Apr 22 01:13:40 daria-VirtualBox anacron[2799]: Updated timestamp for job `cron.daily' to 2025-04-22
+Apr 22 01:13:40 daria-VirtualBox anacron[618]: Job `cron.daily' terminated
+Apr 22 01:17:01 daria-VirtualBox CRON[2946]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Apr 22 01:17:01 daria-VirtualBox CRON[2947]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Apr 22 01:17:01 daria-VirtualBox CRON[2946]: pam_unix(cron:session): session closed for user root
+Apr 22 01:18:40 daria-VirtualBox anacron[618]: Job `cron.weekly' started
+Apr 22 01:18:40 daria-VirtualBox anacron[3028]: Updated timestamp for job `cron.weekly' to 2025-04-22
+Apr 22 01:18:40 daria-VirtualBox anacron[618]: Job `cron.weekly' terminated
+Apr 22 01:18:40 daria-VirtualBox anacron[618]: Normal exit (2 jobs run)
+Apr 22 01:18:40 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+Apr 22 02:17:01 daria-VirtualBox CRON[3821]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Apr 22 02:17:01 daria-VirtualBox CRON[3822]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Apr 22 02:17:01 daria-VirtualBox CRON[3821]: pam_unix(cron:session): session closed for user root
+Apr 24 05:07:20 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+Apr 24 05:07:20 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Apr 24 05:07:20 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+Apr 24 05:07:20 daria-VirtualBox (cron)[627]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Apr 24 05:07:20 daria-VirtualBox cron[627]: (CRON) INFO (pidfile fd = 3)
+Apr 24 05:07:20 daria-VirtualBox cron[627]: (CRON) INFO (Running @reboot jobs)
+Apr 24 05:11:05 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Apr 24 05:17:01 daria-VirtualBox CRON[2117]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Apr 24 05:17:01 daria-VirtualBox CRON[2118]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Apr 24 05:17:01 daria-VirtualBox CRON[2117]: pam_unix(cron:session): session closed for user root
+Apr 24 06:17:01 daria-VirtualBox CRON[3268]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Apr 24 06:17:01 daria-VirtualBox CRON[3269]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Apr 24 06:17:01 daria-VirtualBox CRON[3268]: pam_unix(cron:session): session closed for user root
+Apr 24 06:25:01 daria-VirtualBox CRON[3361]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Apr 24 06:25:01 daria-VirtualBox CRON[3362]: (root) CMD (test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.daily; })
+Apr 24 06:25:01 daria-VirtualBox CRON[3361]: pam_unix(cron:session): session closed for user root
+May 01 13:23:35 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 01 13:23:35 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 01 13:23:35 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 01 13:23:35 daria-VirtualBox (cron)[625]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 01 13:23:35 daria-VirtualBox cron[625]: (CRON) INFO (pidfile fd = 3)
+May 01 13:23:35 daria-VirtualBox cron[625]: (CRON) INFO (Running @reboot jobs)
+May 01 13:25:08 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 01 13:30:01 daria-VirtualBox CRON[2457]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 01 13:30:01 daria-VirtualBox CRON[2458]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 01 13:30:01 daria-VirtualBox CRON[2457]: pam_unix(cron:session): session closed for user root
+May 01 13:33:33 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 01 14:17:01 daria-VirtualBox CRON[3253]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 01 14:17:01 daria-VirtualBox CRON[3254]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 01 14:17:01 daria-VirtualBox CRON[3253]: pam_unix(cron:session): session closed for user root
+May 01 14:30:01 daria-VirtualBox CRON[3435]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 01 14:30:01 daria-VirtualBox CRON[3436]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 01 14:30:01 daria-VirtualBox CRON[3435]: pam_unix(cron:session): session closed for user root
+May 01 14:30:22 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 04 10:55:14 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 04 10:55:14 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 04 10:55:14 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 04 10:55:14 daria-VirtualBox (cron)[627]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 04 10:55:14 daria-VirtualBox cron[627]: (CRON) INFO (pidfile fd = 3)
+May 04 10:55:14 daria-VirtualBox cron[627]: (CRON) INFO (Running @reboot jobs)
+May 04 11:00:09 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 04 11:17:01 daria-VirtualBox CRON[2642]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 04 11:17:01 daria-VirtualBox CRON[2643]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 04 11:17:01 daria-VirtualBox CRON[2642]: pam_unix(cron:session): session closed for user root
+May 04 11:30:01 daria-VirtualBox CRON[2825]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 04 11:30:01 daria-VirtualBox CRON[2826]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 04 11:30:01 daria-VirtualBox CRON[2825]: pam_unix(cron:session): session closed for user root
+May 04 11:31:11 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 05 05:46:06 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 05 05:46:06 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+May 05 05:46:06 daria-VirtualBox anacron[619]: Anacron 2.3 started on 2025-05-05
+May 05 05:46:06 daria-VirtualBox anacron[619]: Will run job `cron.daily' in 5 min.
+May 05 05:46:06 daria-VirtualBox anacron[619]: Will run job `cron.weekly' in 10 min.
+May 05 05:46:06 daria-VirtualBox anacron[619]: Jobs will be executed sequentially
+May 05 05:46:06 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 05 05:46:06 daria-VirtualBox (cron)[622]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 05 05:46:06 daria-VirtualBox cron[622]: (CRON) INFO (pidfile fd = 3)
+May 05 05:46:06 daria-VirtualBox cron[622]: (CRON) INFO (Running @reboot jobs)
+May 05 05:51:06 daria-VirtualBox anacron[619]: Job `cron.daily' started
+May 05 05:51:06 daria-VirtualBox anacron[2660]: Updated timestamp for job `cron.daily' to 2025-05-05
+May 05 05:51:06 daria-VirtualBox anacron[619]: Job `cron.daily' terminated
+May 05 05:56:06 daria-VirtualBox anacron[619]: Job `cron.weekly' started
+May 05 05:56:06 daria-VirtualBox anacron[2811]: Updated timestamp for job `cron.weekly' to 2025-05-05
+May 05 05:56:06 daria-VirtualBox anacron[619]: Job `cron.weekly' terminated
+May 05 05:56:06 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+May 05 05:56:06 daria-VirtualBox anacron[619]: Normal exit (2 jobs run)
+May 05 06:17:01 daria-VirtualBox CRON[3301]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 05 06:17:01 daria-VirtualBox CRON[3302]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 05 06:17:01 daria-VirtualBox CRON[3301]: pam_unix(cron:session): session closed for user root
+May 05 08:17:27 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 05 08:17:27 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 05 08:17:27 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 05 08:17:27 daria-VirtualBox (cron)[618]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 05 08:17:27 daria-VirtualBox cron[618]: (CRON) INFO (pidfile fd = 3)
+May 05 08:17:27 daria-VirtualBox cron[618]: (CRON) INFO (Running @reboot jobs)
+May 05 08:17:33 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 05 08:30:01 daria-VirtualBox CRON[2769]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 05 08:30:01 daria-VirtualBox CRON[2770]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 05 08:30:01 daria-VirtualBox CRON[2769]: pam_unix(cron:session): session closed for user root
+May 05 08:34:18 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 05 09:30:01 daria-VirtualBox CRON[3878]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 05 09:30:01 daria-VirtualBox CRON[3879]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 05 09:30:01 daria-VirtualBox CRON[3878]: pam_unix(cron:session): session closed for user root
+May 05 09:32:57 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 08 05:45:06 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 08 05:45:06 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+May 08 05:45:06 daria-VirtualBox anacron[627]: Anacron 2.3 started on 2025-05-08
+May 08 05:45:06 daria-VirtualBox anacron[627]: Will run job `cron.daily' in 5 min.
+May 08 05:45:06 daria-VirtualBox anacron[627]: Jobs will be executed sequentially
+May 08 05:45:06 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 08 05:45:06 daria-VirtualBox (cron)[630]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 08 05:45:06 daria-VirtualBox cron[630]: (CRON) INFO (pidfile fd = 3)
+May 08 05:45:06 daria-VirtualBox cron[630]: (CRON) INFO (Running @reboot jobs)
+May 08 05:50:08 daria-VirtualBox anacron[627]: Job `cron.daily' started
+May 08 05:50:08 daria-VirtualBox anacron[2461]: Updated timestamp for job `cron.daily' to 2025-05-08
+May 08 05:50:08 daria-VirtualBox anacron[627]: Job `cron.daily' terminated
+May 08 05:50:08 daria-VirtualBox anacron[627]: Normal exit (1 job run)
+May 08 05:50:08 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+May 08 06:17:01 daria-VirtualBox CRON[2789]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 08 06:17:01 daria-VirtualBox CRON[2790]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 08 06:17:01 daria-VirtualBox CRON[2789]: pam_unix(cron:session): session closed for user root
+May 08 06:25:01 daria-VirtualBox CRON[2872]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 08 06:25:01 daria-VirtualBox CRON[2873]: (root) CMD (test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.daily; })
+May 08 06:25:01 daria-VirtualBox CRON[2872]: pam_unix(cron:session): session closed for user root
+May 08 09:48:09 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 08 09:48:09 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 08 09:48:09 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 08 09:48:09 daria-VirtualBox (cron)[630]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 08 09:48:09 daria-VirtualBox cron[630]: (CRON) INFO (pidfile fd = 3)
+May 08 09:48:09 daria-VirtualBox cron[630]: (CRON) INFO (Running @reboot jobs)
+May 08 09:52:21 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 08 10:17:01 daria-VirtualBox CRON[2937]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 08 10:17:01 daria-VirtualBox CRON[2938]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 08 10:17:01 daria-VirtualBox CRON[2937]: pam_unix(cron:session): session closed for user root
+May 08 10:30:01 daria-VirtualBox CRON[3087]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 08 10:30:01 daria-VirtualBox CRON[3088]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 08 10:30:01 daria-VirtualBox CRON[3087]: pam_unix(cron:session): session closed for user root
+May 08 10:34:08 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 08 11:17:01 daria-VirtualBox CRON[3791]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 08 11:17:01 daria-VirtualBox CRON[3792]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 08 11:17:01 daria-VirtualBox CRON[3791]: pam_unix(cron:session): session closed for user root
+May 08 11:30:01 daria-VirtualBox CRON[3954]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 08 11:30:01 daria-VirtualBox CRON[3955]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 08 11:30:01 daria-VirtualBox CRON[3954]: pam_unix(cron:session): session closed for user root
+May 08 11:30:29 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 08 12:17:01 daria-VirtualBox CRON[4769]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 08 12:17:01 daria-VirtualBox CRON[4770]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 08 12:17:02 daria-VirtualBox CRON[4769]: pam_unix(cron:session): session closed for user root
+May 12 08:48:40 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 12 08:48:40 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+May 12 08:48:40 daria-VirtualBox anacron[621]: Anacron 2.3 started on 2025-05-12
+May 12 08:48:40 daria-VirtualBox anacron[621]: Will run job `cron.daily' in 5 min.
+May 12 08:48:40 daria-VirtualBox anacron[621]: Will run job `cron.weekly' in 10 min.
+May 12 08:48:40 daria-VirtualBox anacron[621]: Will run job `cron.monthly' in 15 min.
+May 12 08:48:40 daria-VirtualBox anacron[621]: Jobs will be executed sequentially
+May 12 08:48:40 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 12 08:48:40 daria-VirtualBox (cron)[624]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 12 08:48:40 daria-VirtualBox cron[624]: (CRON) INFO (pidfile fd = 3)
+May 12 08:48:40 daria-VirtualBox cron[624]: (CRON) INFO (Running @reboot jobs)
+May 12 08:53:40 daria-VirtualBox anacron[621]: Job `cron.daily' started
+May 12 08:53:40 daria-VirtualBox anacron[2447]: Updated timestamp for job `cron.daily' to 2025-05-12
+May 12 08:53:40 daria-VirtualBox anacron[621]: Job `cron.daily' terminated
+May 12 08:58:40 daria-VirtualBox anacron[621]: Job `cron.weekly' started
+May 12 08:58:40 daria-VirtualBox anacron[2531]: Updated timestamp for job `cron.weekly' to 2025-05-12
+May 12 08:58:40 daria-VirtualBox anacron[621]: Job `cron.weekly' terminated
+May 12 09:03:40 daria-VirtualBox anacron[621]: Job `cron.monthly' started
+May 12 09:03:40 daria-VirtualBox systemd[1]: anacron.service: Killing process 2606 (anacron) with signal SIGKILL.
+May 12 09:03:40 daria-VirtualBox anacron[621]: Job `cron.monthly' terminated
+May 12 09:03:40 daria-VirtualBox anacron[621]: Normal exit (3 jobs run)
+May 12 09:03:40 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+May 12 09:17:01 daria-VirtualBox CRON[2772]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 12 09:17:01 daria-VirtualBox CRON[2773]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 12 09:17:01 daria-VirtualBox CRON[2772]: pam_unix(cron:session): session closed for user root
+May 12 09:30:01 daria-VirtualBox CRON[3246]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 12 09:30:01 daria-VirtualBox CRON[3247]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 12 09:30:01 daria-VirtualBox CRON[3246]: pam_unix(cron:session): session closed for user root
+May 12 09:32:03 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+May 12 09:32:03 daria-VirtualBox anacron[3305]: Anacron 2.3 started on 2025-05-12
+May 12 09:32:03 daria-VirtualBox anacron[3305]: Normal exit (0 jobs run)
+May 12 09:32:03 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+May 12 10:30:01 daria-VirtualBox CRON[4331]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 12 10:30:01 daria-VirtualBox CRON[4332]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 12 10:30:01 daria-VirtualBox CRON[4331]: pam_unix(cron:session): session closed for user root
+May 12 10:31:18 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 12 11:17:01 daria-VirtualBox CRON[4966]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 12 11:17:01 daria-VirtualBox CRON[4967]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 12 11:17:01 daria-VirtualBox CRON[4966]: pam_unix(cron:session): session closed for user root
+May 12 11:30:01 daria-VirtualBox CRON[5118]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 12 11:30:01 daria-VirtualBox CRON[5119]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 12 11:30:01 daria-VirtualBox CRON[5118]: pam_unix(cron:session): session closed for user root
+May 12 11:34:18 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 12 16:15:15 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 12 16:15:15 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 12 16:15:15 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 12 16:15:15 daria-VirtualBox (cron)[622]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 12 16:15:15 daria-VirtualBox cron[622]: (CRON) INFO (pidfile fd = 3)
+May 12 16:15:15 daria-VirtualBox cron[622]: (CRON) INFO (Running @reboot jobs)
+May 12 16:17:01 daria-VirtualBox CRON[2376]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 12 16:17:01 daria-VirtualBox CRON[2377]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 12 16:17:01 daria-VirtualBox CRON[2376]: pam_unix(cron:session): session closed for user root
+May 12 16:20:04 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 12 16:30:01 daria-VirtualBox CRON[2601]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 12 16:30:01 daria-VirtualBox CRON[2602]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 12 16:30:01 daria-VirtualBox CRON[2601]: pam_unix(cron:session): session closed for user root
+May 12 16:34:05 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 13 01:10:30 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 13 13:39:40 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 13 13:39:40 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+May 13 13:39:40 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 13 13:39:40 daria-VirtualBox anacron[612]: Anacron 2.3 started on 2025-05-13
+May 13 13:39:40 daria-VirtualBox anacron[612]: Will run job `cron.daily' in 5 min.
+May 13 13:39:40 daria-VirtualBox anacron[612]: Jobs will be executed sequentially
+May 13 13:39:40 daria-VirtualBox (cron)[615]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 13 13:39:40 daria-VirtualBox cron[615]: (CRON) INFO (pidfile fd = 3)
+May 13 13:39:40 daria-VirtualBox cron[615]: (CRON) INFO (Running @reboot jobs)
+May 13 13:44:40 daria-VirtualBox anacron[612]: Job `cron.daily' started
+May 13 13:44:40 daria-VirtualBox anacron[2422]: Updated timestamp for job `cron.daily' to 2025-05-13
+May 13 13:44:40 daria-VirtualBox anacron[612]: Job `cron.daily' terminated
+May 13 13:44:40 daria-VirtualBox anacron[612]: Normal exit (1 job run)
+May 13 13:44:40 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+May 13 14:17:01 daria-VirtualBox CRON[3137]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 13 14:17:01 daria-VirtualBox CRON[3138]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 13 14:17:01 daria-VirtualBox CRON[3137]: pam_unix(cron:session): session closed for user root
+May 13 14:30:01 daria-VirtualBox CRON[3375]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 13 14:30:01 daria-VirtualBox CRON[3376]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 13 14:30:01 daria-VirtualBox CRON[3375]: pam_unix(cron:session): session closed for user root
+May 13 14:33:46 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 13 16:05:59 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 13 16:05:59 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 13 16:05:59 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 13 16:05:59 daria-VirtualBox (cron)[627]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 13 16:05:59 daria-VirtualBox cron[627]: (CRON) INFO (pidfile fd = 3)
+May 13 16:05:59 daria-VirtualBox cron[627]: (CRON) INFO (Running @reboot jobs)
+May 13 16:06:29 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 13 16:17:01 daria-VirtualBox CRON[2508]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 13 16:17:01 daria-VirtualBox CRON[2509]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 13 16:17:01 daria-VirtualBox CRON[2508]: pam_unix(cron:session): session closed for user root
+May 13 16:30:01 daria-VirtualBox CRON[2753]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 13 16:30:01 daria-VirtualBox CRON[2754]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 13 16:30:01 daria-VirtualBox CRON[2753]: pam_unix(cron:session): session closed for user root
+May 13 16:33:45 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 14 15:34:00 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 14 15:34:00 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 14 15:34:00 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 14 15:34:01 daria-VirtualBox (cron)[623]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 14 15:34:01 daria-VirtualBox cron[623]: (CRON) INFO (pidfile fd = 3)
+May 14 15:34:01 daria-VirtualBox cron[623]: (CRON) INFO (Running @reboot jobs)
+May 14 15:36:54 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 16 02:58:40 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 16 02:58:40 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 16 02:58:40 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 16 02:58:40 daria-VirtualBox (cron)[630]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 16 02:58:40 daria-VirtualBox cron[630]: (CRON) INFO (pidfile fd = 3)
+May 16 02:58:40 daria-VirtualBox cron[630]: (CRON) INFO (Running @reboot jobs)
+May 16 02:59:12 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 16 03:10:01 daria-VirtualBox CRON[3147]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 16 03:10:01 daria-VirtualBox CRON[3148]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r)
+May 16 03:10:01 daria-VirtualBox CRON[3147]: pam_unix(cron:session): session closed for user root
+May 16 03:17:01 daria-VirtualBox CRON[3553]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 16 03:17:01 daria-VirtualBox CRON[3554]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 16 03:17:01 daria-VirtualBox CRON[3553]: pam_unix(cron:session): session closed for user root
+May 16 04:17:01 daria-VirtualBox CRON[4510]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 16 04:17:01 daria-VirtualBox CRON[4511]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 16 04:17:01 daria-VirtualBox CRON[4510]: pam_unix(cron:session): session closed for user root
+May 22 05:16:55 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 22 05:16:55 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 22 05:16:55 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 22 05:16:55 daria-VirtualBox (cron)[622]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 22 05:16:55 daria-VirtualBox cron[622]: (CRON) INFO (pidfile fd = 3)
+May 22 05:16:55 daria-VirtualBox cron[622]: (CRON) INFO (Running @reboot jobs)
+May 22 05:17:01 daria-VirtualBox CRON[1203]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 22 05:17:01 daria-VirtualBox CRON[1204]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 22 05:17:01 daria-VirtualBox CRON[1203]: pam_unix(cron:session): session closed for user root
+May 22 05:21:11 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 22 06:17:01 daria-VirtualBox CRON[3245]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 22 06:17:01 daria-VirtualBox CRON[3246]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 22 06:17:01 daria-VirtualBox CRON[3245]: pam_unix(cron:session): session closed for user root
+May 22 06:25:01 daria-VirtualBox CRON[3405]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 22 06:25:01 daria-VirtualBox CRON[3406]: (root) CMD (test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.daily; })
+May 22 06:25:01 daria-VirtualBox CRON[3405]: pam_unix(cron:session): session closed for user root
+May 27 13:49:17 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 27 13:49:17 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 27 13:49:17 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 27 13:49:17 daria-VirtualBox (cron)[624]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 27 13:49:17 daria-VirtualBox cron[624]: (CRON) INFO (pidfile fd = 3)
+May 27 13:49:17 daria-VirtualBox cron[624]: (CRON) INFO (Running @reboot jobs)
+May 27 13:52:07 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 27 13:52:07 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 27 13:52:07 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 27 13:52:07 daria-VirtualBox (cron)[626]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 27 13:52:07 daria-VirtualBox cron[626]: (CRON) INFO (pidfile fd = 3)
+May 27 13:52:07 daria-VirtualBox cron[626]: (CRON) INFO (Running @reboot jobs)
+May 27 13:53:10 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 27 14:17:01 daria-VirtualBox CRON[2802]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 27 14:17:01 daria-VirtualBox CRON[2803]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 27 14:17:01 daria-VirtualBox CRON[2802]: pam_unix(cron:session): session closed for user root
+May 27 15:00:54 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 27 15:00:54 daria-VirtualBox CRON[2924]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 27 15:00:54 daria-VirtualBox CRON[2928]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 27 15:00:54 daria-VirtualBox CRON[2924]: pam_unix(cron:session): session closed for user root
+May 27 15:17:01 daria-VirtualBox CRON[3207]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 27 15:17:01 daria-VirtualBox CRON[3208]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 27 15:17:01 daria-VirtualBox CRON[3207]: pam_unix(cron:session): session closed for user root
+May 27 15:30:01 daria-VirtualBox CRON[3355]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 27 15:30:01 daria-VirtualBox CRON[3356]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 27 15:30:01 daria-VirtualBox CRON[3355]: pam_unix(cron:session): session closed for user root
+May 27 15:32:37 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 27 16:17:01 daria-VirtualBox CRON[3956]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 27 16:17:01 daria-VirtualBox CRON[3957]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 27 16:17:01 daria-VirtualBox CRON[3956]: pam_unix(cron:session): session closed for user root
+May 27 16:30:01 daria-VirtualBox CRON[4119]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 27 16:30:01 daria-VirtualBox CRON[4120]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 27 16:30:01 daria-VirtualBox CRON[4119]: pam_unix(cron:session): session closed for user root
+May 27 16:33:01 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 27 17:17:01 daria-VirtualBox CRON[5627]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 27 17:17:01 daria-VirtualBox CRON[5628]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 27 17:17:01 daria-VirtualBox CRON[5627]: pam_unix(cron:session): session closed for user root
+May 27 17:30:01 daria-VirtualBox CRON[6130]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 27 17:30:01 daria-VirtualBox CRON[6131]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 27 17:30:01 daria-VirtualBox CRON[6130]: pam_unix(cron:session): session closed for user root
+May 27 17:30:37 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 27 18:40:10 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 27 18:40:10 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 27 18:40:11 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 27 18:40:11 daria-VirtualBox (cron)[616]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 27 18:40:11 daria-VirtualBox cron[616]: (CRON) INFO (pidfile fd = 3)
+May 27 18:40:11 daria-VirtualBox cron[616]: (CRON) INFO (Running @reboot jobs)
+May 27 18:44:28 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 27 19:17:01 daria-VirtualBox CRON[2830]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 27 19:17:01 daria-VirtualBox CRON[2831]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 27 19:17:01 daria-VirtualBox CRON[2830]: pam_unix(cron:session): session closed for user root
+May 27 19:30:01 daria-VirtualBox CRON[3017]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 27 19:30:01 daria-VirtualBox CRON[3018]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 27 19:30:01 daria-VirtualBox CRON[3017]: pam_unix(cron:session): session closed for user root
+May 27 19:32:50 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 28 09:49:19 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 28 09:49:19 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 28 09:49:19 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 28 09:49:19 daria-VirtualBox (cron)[626]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 28 09:49:19 daria-VirtualBox cron[626]: (CRON) INFO (pidfile fd = 3)
+May 28 09:49:19 daria-VirtualBox cron[626]: (CRON) INFO (Running @reboot jobs)
+May 28 09:54:23 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 28 10:17:01 daria-VirtualBox CRON[2824]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 28 10:17:01 daria-VirtualBox CRON[2825]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 28 10:17:01 daria-VirtualBox CRON[2824]: pam_unix(cron:session): session closed for user root
+May 28 10:30:01 daria-VirtualBox CRON[3011]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 28 10:30:01 daria-VirtualBox CRON[3012]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 28 10:30:01 daria-VirtualBox CRON[3011]: pam_unix(cron:session): session closed for user root
+May 28 10:32:58 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 28 11:17:01 daria-VirtualBox CRON[3976]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 28 11:17:01 daria-VirtualBox CRON[3977]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 28 11:17:01 daria-VirtualBox CRON[3976]: pam_unix(cron:session): session closed for user root
+May 28 12:45:34 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 28 12:45:34 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 28 12:45:34 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 28 12:45:34 daria-VirtualBox (cron)[618]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 28 12:45:34 daria-VirtualBox cron[618]: (CRON) INFO (pidfile fd = 3)
+May 28 12:45:34 daria-VirtualBox cron[618]: (CRON) INFO (Running @reboot jobs)
+May 28 12:46:01 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 28 13:17:01 daria-VirtualBox CRON[2821]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 28 13:17:01 daria-VirtualBox CRON[2822]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 28 13:17:01 daria-VirtualBox CRON[2821]: pam_unix(cron:session): session closed for user root
+May 28 13:30:01 daria-VirtualBox CRON[3012]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 28 13:30:01 daria-VirtualBox CRON[3013]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 28 13:30:01 daria-VirtualBox CRON[3012]: pam_unix(cron:session): session closed for user root
+May 28 13:34:08 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 28 14:53:29 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 28 14:53:29 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 28 14:53:29 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 28 14:53:29 daria-VirtualBox (cron)[629]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 28 14:53:29 daria-VirtualBox cron[629]: (CRON) INFO (pidfile fd = 3)
+May 28 14:53:29 daria-VirtualBox cron[629]: (CRON) INFO (Running @reboot jobs)
+May 28 14:55:37 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 28 15:17:01 daria-VirtualBox CRON[2750]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 28 15:17:01 daria-VirtualBox CRON[2751]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 28 15:17:01 daria-VirtualBox CRON[2750]: pam_unix(cron:session): session closed for user root
+May 28 15:30:01 daria-VirtualBox CRON[2958]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 28 15:30:01 daria-VirtualBox CRON[2959]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 28 15:30:01 daria-VirtualBox CRON[2958]: pam_unix(cron:session): session closed for user root
+May 28 15:32:40 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 28 16:17:01 daria-VirtualBox CRON[3757]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 28 16:17:01 daria-VirtualBox CRON[3758]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 28 16:17:01 daria-VirtualBox CRON[3757]: pam_unix(cron:session): session closed for user root
+May 28 16:30:01 daria-VirtualBox CRON[3933]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 28 16:30:01 daria-VirtualBox CRON[3934]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 28 16:30:01 daria-VirtualBox CRON[3933]: pam_unix(cron:session): session closed for user root
+May 28 16:31:54 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 28 17:30:16 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 28 17:30:16 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 28 17:30:16 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 28 17:30:16 daria-VirtualBox (cron)[626]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 28 17:30:16 daria-VirtualBox cron[626]: (CRON) INFO (pidfile fd = 3)
+May 28 17:30:16 daria-VirtualBox cron[626]: (CRON) INFO (Running @reboot jobs)
+May 28 17:33:12 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 28 18:17:01 daria-VirtualBox CRON[4903]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 28 18:17:01 daria-VirtualBox CRON[4904]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 28 18:17:01 daria-VirtualBox CRON[4903]: pam_unix(cron:session): session closed for user root
+May 28 18:30:01 daria-VirtualBox CRON[5082]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 28 18:30:01 daria-VirtualBox CRON[5083]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 28 18:30:01 daria-VirtualBox CRON[5082]: pam_unix(cron:session): session closed for user root
+May 28 18:30:09 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 29 18:23:08 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 29 18:23:08 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+May 29 18:23:08 daria-VirtualBox anacron[613]: Anacron 2.3 started on 2025-05-29
+May 29 18:23:08 daria-VirtualBox anacron[613]: Will run job `cron.daily' in 5 min.
+May 29 18:23:08 daria-VirtualBox anacron[613]: Will run job `cron.weekly' in 10 min.
+May 29 18:23:08 daria-VirtualBox anacron[613]: Jobs will be executed sequentially
+May 29 18:23:08 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 29 18:23:08 daria-VirtualBox (cron)[616]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 29 18:23:08 daria-VirtualBox cron[616]: (CRON) INFO (pidfile fd = 3)
+May 29 18:23:08 daria-VirtualBox cron[616]: (CRON) INFO (Running @reboot jobs)
+May 29 18:28:08 daria-VirtualBox anacron[613]: Job `cron.daily' started
+May 29 18:28:08 daria-VirtualBox anacron[2507]: Updated timestamp for job `cron.daily' to 2025-05-29
+May 29 18:28:08 daria-VirtualBox anacron[613]: Job `cron.daily' terminated
+May 29 18:30:01 daria-VirtualBox CRON[2572]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 29 18:30:01 daria-VirtualBox CRON[2573]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 29 18:30:01 daria-VirtualBox CRON[2572]: pam_unix(cron:session): session closed for user root
+May 29 18:33:08 daria-VirtualBox anacron[613]: Job `cron.weekly' started
+May 29 18:33:08 daria-VirtualBox anacron[2610]: Updated timestamp for job `cron.weekly' to 2025-05-29
+May 29 18:33:08 daria-VirtualBox anacron[613]: Job `cron.weekly' terminated
+May 29 18:33:08 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+May 29 18:33:08 daria-VirtualBox anacron[613]: Normal exit (2 jobs run)
+May 29 18:33:08 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+May 29 18:33:08 daria-VirtualBox anacron[2613]: Anacron 2.3 started on 2025-05-29
+May 29 18:33:08 daria-VirtualBox anacron[2613]: Normal exit (0 jobs run)
+May 29 18:33:08 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+May 29 19:17:01 daria-VirtualBox CRON[3268]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 29 19:17:01 daria-VirtualBox CRON[3269]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 29 19:17:01 daria-VirtualBox CRON[3268]: pam_unix(cron:session): session closed for user root
+May 29 19:30:01 daria-VirtualBox CRON[3558]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 29 19:30:01 daria-VirtualBox CRON[3559]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 29 19:30:01 daria-VirtualBox CRON[3558]: pam_unix(cron:session): session closed for user root
+May 29 19:34:25 daria-VirtualBox anacron[3763]: Anacron 2.3 started on 2025-05-29
+May 29 19:34:25 daria-VirtualBox anacron[3763]: Normal exit (0 jobs run)
+May 29 19:34:25 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+May 29 19:34:25 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+May 30 10:31:25 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 30 10:31:25 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 30 10:31:25 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 30 10:31:25 daria-VirtualBox (cron)[626]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 30 10:31:25 daria-VirtualBox cron[626]: (CRON) INFO (pidfile fd = 3)
+May 30 10:31:25 daria-VirtualBox cron[626]: (CRON) INFO (Running @reboot jobs)
+May 30 10:34:31 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 30 11:17:01 daria-VirtualBox CRON[3131]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 30 11:17:01 daria-VirtualBox CRON[3132]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 30 11:17:01 daria-VirtualBox CRON[3131]: pam_unix(cron:session): session closed for user root
+May 30 11:30:01 daria-VirtualBox CRON[3301]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 30 11:30:01 daria-VirtualBox CRON[3302]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 30 11:30:01 daria-VirtualBox CRON[3301]: pam_unix(cron:session): session closed for user root
+May 30 11:31:16 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 30 12:17:01 daria-VirtualBox CRON[4293]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 30 12:17:01 daria-VirtualBox CRON[4294]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 30 12:17:01 daria-VirtualBox CRON[4293]: pam_unix(cron:session): session closed for user root
+May 30 12:30:01 daria-VirtualBox CRON[4488]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 30 12:30:01 daria-VirtualBox CRON[4489]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 30 12:30:01 daria-VirtualBox CRON[4488]: pam_unix(cron:session): session closed for user root
+May 30 12:30:06 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+May 30 12:30:06 daria-VirtualBox anacron[4491]: Anacron 2.3 started on 2025-05-30
+May 30 12:30:06 daria-VirtualBox anacron[4491]: Will run job `cron.daily' in 5 min.
+May 30 12:30:06 daria-VirtualBox anacron[4491]: Jobs will be executed sequentially
+May 30 12:35:06 daria-VirtualBox anacron[4491]: Job `cron.daily' started
+May 30 12:35:06 daria-VirtualBox anacron[4572]: Updated timestamp for job `cron.daily' to 2025-05-30
+May 30 12:35:06 daria-VirtualBox anacron[4491]: Job `cron.daily' terminated
+May 30 12:35:06 daria-VirtualBox anacron[4491]: Normal exit (1 job run)
+May 30 12:35:06 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+May 30 13:17:51 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 30 13:17:51 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+May 30 13:17:51 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 30 13:17:51 daria-VirtualBox anacron[622]: Anacron 2.3 started on 2025-05-30
+May 30 13:17:51 daria-VirtualBox anacron[622]: Normal exit (0 jobs run)
+May 30 13:17:51 daria-VirtualBox (cron)[625]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 30 13:17:51 daria-VirtualBox cron[625]: (CRON) INFO (pidfile fd = 3)
+May 30 13:17:51 daria-VirtualBox cron[625]: (CRON) INFO (Running @reboot jobs)
+May 30 13:17:51 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+May 30 13:30:01 daria-VirtualBox CRON[2662]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 30 13:30:01 daria-VirtualBox CRON[2663]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 30 13:30:01 daria-VirtualBox CRON[2662]: pam_unix(cron:session): session closed for user root
+May 30 13:34:58 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+May 30 13:34:58 daria-VirtualBox anacron[2738]: Anacron 2.3 started on 2025-05-30
+May 30 13:34:58 daria-VirtualBox anacron[2738]: Normal exit (0 jobs run)
+May 30 13:34:58 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+May 30 16:22:42 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 30 16:22:42 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 30 16:22:42 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 30 16:22:42 daria-VirtualBox (cron)[618]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 30 16:22:42 daria-VirtualBox cron[618]: (CRON) INFO (pidfile fd = 3)
+May 30 16:22:42 daria-VirtualBox cron[618]: (CRON) INFO (Running @reboot jobs)
+May 30 16:25:36 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 30 16:30:01 daria-VirtualBox CRON[2538]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 30 16:30:01 daria-VirtualBox CRON[2539]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 30 16:30:01 daria-VirtualBox CRON[2538]: pam_unix(cron:session): session closed for user root
+May 30 16:32:59 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 30 17:17:01 daria-VirtualBox CRON[3326]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 30 17:17:01 daria-VirtualBox CRON[3327]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 30 17:17:01 daria-VirtualBox CRON[3326]: pam_unix(cron:session): session closed for user root
+May 30 17:30:01 daria-VirtualBox CRON[3601]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 30 17:30:01 daria-VirtualBox CRON[3602]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 30 17:30:01 daria-VirtualBox CRON[3601]: pam_unix(cron:session): session closed for user root
+May 30 17:32:59 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 31 04:29:05 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 31 04:29:05 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 31 04:29:05 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 31 04:29:05 daria-VirtualBox (cron)[625]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 31 04:29:05 daria-VirtualBox cron[625]: (CRON) INFO (pidfile fd = 3)
+May 31 04:29:06 daria-VirtualBox cron[625]: (CRON) INFO (Running @reboot jobs)
+May 31 04:32:55 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 31 05:17:01 daria-VirtualBox CRON[3464]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 31 05:17:01 daria-VirtualBox CRON[3465]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 31 05:17:01 daria-VirtualBox CRON[3464]: pam_unix(cron:session): session closed for user root
+May 31 06:49:15 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 31 06:49:15 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 31 06:49:15 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 31 06:49:15 daria-VirtualBox (cron)[626]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 31 06:49:15 daria-VirtualBox cron[626]: (CRON) INFO (pidfile fd = 3)
+May 31 06:49:15 daria-VirtualBox cron[626]: (CRON) INFO (Running @reboot jobs)
+May 31 07:17:01 daria-VirtualBox CRON[2887]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 31 07:17:01 daria-VirtualBox CRON[2888]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 31 07:17:01 daria-VirtualBox CRON[2887]: pam_unix(cron:session): session closed for user root
+May 31 07:30:01 daria-VirtualBox CRON[3104]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 31 07:30:01 daria-VirtualBox CRON[3105]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 31 07:30:01 daria-VirtualBox CRON[3104]: pam_unix(cron:session): session closed for user root
+May 31 07:33:22 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+May 31 07:33:22 daria-VirtualBox anacron[3167]: Anacron 2.3 started on 2025-05-31
+May 31 07:33:22 daria-VirtualBox anacron[3167]: Will run job `cron.daily' in 5 min.
+May 31 07:33:22 daria-VirtualBox anacron[3167]: Jobs will be executed sequentially
+May 31 07:38:22 daria-VirtualBox anacron[3167]: Job `cron.daily' started
+May 31 07:38:22 daria-VirtualBox anacron[3279]: Updated timestamp for job `cron.daily' to 2025-05-31
+May 31 07:38:22 daria-VirtualBox anacron[3167]: Job `cron.daily' terminated
+May 31 07:38:22 daria-VirtualBox anacron[3167]: Normal exit (1 job run)
+May 31 07:38:22 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+May 31 08:17:01 daria-VirtualBox CRON[3941]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 31 08:17:01 daria-VirtualBox CRON[3942]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 31 08:17:01 daria-VirtualBox CRON[3941]: pam_unix(cron:session): session closed for user root
+May 31 08:30:01 daria-VirtualBox CRON[4100]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 31 08:30:01 daria-VirtualBox CRON[4101]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 31 08:30:01 daria-VirtualBox CRON[4100]: pam_unix(cron:session): session closed for user root
+May 31 08:32:30 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+May 31 08:32:30 daria-VirtualBox anacron[4127]: Anacron 2.3 started on 2025-05-31
+May 31 08:32:30 daria-VirtualBox anacron[4127]: Normal exit (0 jobs run)
+May 31 08:32:30 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+May 31 09:17:01 daria-VirtualBox CRON[4761]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 31 09:17:01 daria-VirtualBox CRON[4762]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 31 09:17:01 daria-VirtualBox CRON[4761]: pam_unix(cron:session): session closed for user root
+May 31 09:30:01 daria-VirtualBox CRON[4952]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 31 09:30:01 daria-VirtualBox CRON[4953]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 31 09:30:01 daria-VirtualBox CRON[4952]: pam_unix(cron:session): session closed for user root
+May 31 10:10:28 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+May 31 10:10:28 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 31 10:10:28 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+May 31 10:10:28 daria-VirtualBox (cron)[631]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+May 31 10:10:28 daria-VirtualBox cron[631]: (CRON) INFO (pidfile fd = 3)
+May 31 10:10:28 daria-VirtualBox cron[631]: (CRON) INFO (Running @reboot jobs)
+May 31 10:11:01 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+May 31 10:17:01 daria-VirtualBox CRON[2087]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 31 10:17:01 daria-VirtualBox CRON[2088]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+May 31 10:17:01 daria-VirtualBox CRON[2087]: pam_unix(cron:session): session closed for user root
+May 31 10:30:01 daria-VirtualBox CRON[2758]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 31 10:30:01 daria-VirtualBox CRON[2759]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 31 10:30:01 daria-VirtualBox CRON[2758]: pam_unix(cron:session): session closed for user root
+May 31 10:32:20 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 01 02:47:49 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+Jun 01 02:47:49 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+Jun 01 02:47:49 daria-VirtualBox anacron[615]: Anacron 2.3 started on 2025-06-01
+Jun 01 02:47:49 daria-VirtualBox anacron[615]: Will run job `cron.daily' in 5 min.
+Jun 01 02:47:49 daria-VirtualBox anacron[615]: Jobs will be executed sequentially
+Jun 01 02:47:49 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+Jun 01 02:47:49 daria-VirtualBox (cron)[618]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jun 01 02:47:49 daria-VirtualBox cron[618]: (CRON) INFO (pidfile fd = 3)
+Jun 01 02:47:49 daria-VirtualBox cron[618]: (CRON) INFO (Running @reboot jobs)
+Jun 01 02:52:49 daria-VirtualBox anacron[615]: Job `cron.daily' started
+Jun 01 02:52:49 daria-VirtualBox anacron[2563]: Updated timestamp for job `cron.daily' to 2025-06-01
+Jun 01 02:52:49 daria-VirtualBox anacron[615]: Job `cron.daily' terminated
+Jun 01 02:52:49 daria-VirtualBox anacron[615]: Normal exit (1 job run)
+Jun 01 02:52:49 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+Jun 01 03:10:01 daria-VirtualBox CRON[2963]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 03:10:01 daria-VirtualBox CRON[2964]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r)
+Jun 01 03:10:01 daria-VirtualBox CRON[2963]: pam_unix(cron:session): session closed for user root
+Jun 01 03:17:01 daria-VirtualBox CRON[3097]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 03:17:01 daria-VirtualBox CRON[3098]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 01 03:17:01 daria-VirtualBox CRON[3097]: pam_unix(cron:session): session closed for user root
+Jun 01 03:30:01 daria-VirtualBox CRON[3511]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 03:30:01 daria-VirtualBox CRON[3512]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron)
+Jun 01 03:30:01 daria-VirtualBox CRON[3511]: pam_unix(cron:session): session closed for user root
+Jun 01 04:17:01 daria-VirtualBox CRON[18573]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 04:17:01 daria-VirtualBox CRON[18574]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 01 04:17:01 daria-VirtualBox CRON[18573]: pam_unix(cron:session): session closed for user root
+Jun 01 05:17:01 daria-VirtualBox CRON[42534]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 05:17:01 daria-VirtualBox CRON[42535]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 01 05:17:01 daria-VirtualBox CRON[42534]: pam_unix(cron:session): session closed for user root
+Jun 01 11:40:56 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+Jun 01 11:40:56 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 01 11:40:56 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+Jun 01 11:40:56 daria-VirtualBox (cron)[626]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jun 01 11:40:56 daria-VirtualBox cron[626]: (CRON) INFO (pidfile fd = 3)
+Jun 01 11:40:56 daria-VirtualBox cron[626]: (CRON) INFO (Running @reboot jobs)
+Jun 01 11:43:07 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 01 12:17:01 daria-VirtualBox CRON[5327]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 12:17:01 daria-VirtualBox CRON[5328]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 01 12:17:01 daria-VirtualBox CRON[5327]: pam_unix(cron:session): session closed for user root
+Jun 01 12:30:01 daria-VirtualBox CRON[5816]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 12:30:01 daria-VirtualBox CRON[5817]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun 01 12:30:01 daria-VirtualBox CRON[5816]: pam_unix(cron:session): session closed for user root
+Jun 01 12:31:37 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 01 13:54:24 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+Jun 01 13:54:24 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 01 13:54:24 daria-VirtualBox (cron)[625]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jun 01 13:54:24 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+Jun 01 13:54:24 daria-VirtualBox cron[625]: (CRON) INFO (pidfile fd = 3)
+Jun 01 13:54:24 daria-VirtualBox cron[625]: (CRON) INFO (Running @reboot jobs)
+Jun 01 13:56:53 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 01 14:17:01 daria-VirtualBox CRON[3921]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 14:17:01 daria-VirtualBox CRON[3922]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 01 14:17:01 daria-VirtualBox CRON[3921]: pam_unix(cron:session): session closed for user root
+Jun 01 15:02:09 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 01 15:02:09 daria-VirtualBox CRON[4353]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 15:02:09 daria-VirtualBox CRON[4369]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun 01 15:02:09 daria-VirtualBox CRON[4353]: pam_unix(cron:session): session closed for user root
+Jun 01 15:17:01 daria-VirtualBox CRON[4962]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 15:17:01 daria-VirtualBox CRON[4963]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 01 15:17:01 daria-VirtualBox CRON[4962]: pam_unix(cron:session): session closed for user root
+Jun 01 15:30:01 daria-VirtualBox CRON[5399]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 15:30:01 daria-VirtualBox CRON[5400]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun 01 15:30:01 daria-VirtualBox CRON[5399]: pam_unix(cron:session): session closed for user root
+Jun 01 15:32:13 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 01 16:17:01 daria-VirtualBox CRON[6773]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 16:17:01 daria-VirtualBox CRON[6774]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 01 16:17:01 daria-VirtualBox CRON[6773]: pam_unix(cron:session): session closed for user root
+Jun 01 16:30:01 daria-VirtualBox CRON[7185]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 16:30:01 daria-VirtualBox CRON[7186]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun 01 16:30:01 daria-VirtualBox CRON[7185]: pam_unix(cron:session): session closed for user root
+Jun 01 16:33:49 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 01 17:17:01 daria-VirtualBox CRON[8193]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 17:17:01 daria-VirtualBox CRON[8194]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 01 17:17:01 daria-VirtualBox CRON[8193]: pam_unix(cron:session): session closed for user root
+Jun 01 17:30:01 daria-VirtualBox CRON[8414]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 17:30:01 daria-VirtualBox CRON[8415]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun 01 17:30:01 daria-VirtualBox CRON[8414]: pam_unix(cron:session): session closed for user root
+Jun 01 17:33:53 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+Jun 01 17:33:53 daria-VirtualBox anacron[8479]: Anacron 2.3 started on 2025-06-01
+Jun 01 17:33:53 daria-VirtualBox anacron[8479]: Normal exit (0 jobs run)
+Jun 01 17:33:53 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+Jun 01 18:34:40 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+Jun 01 18:34:40 daria-VirtualBox CRON[8862]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 18:34:40 daria-VirtualBox CRON[8867]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun 01 18:34:40 daria-VirtualBox CRON[8862]: pam_unix(cron:session): session closed for user root
+Jun 01 18:34:40 daria-VirtualBox anacron[8858]: Anacron 2.3 started on 2025-06-01
+Jun 01 18:34:40 daria-VirtualBox anacron[8858]: Normal exit (0 jobs run)
+Jun 01 18:34:40 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+Jun 01 19:17:01 daria-VirtualBox CRON[9865]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 19:17:01 daria-VirtualBox CRON[9866]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 01 19:17:01 daria-VirtualBox CRON[9865]: pam_unix(cron:session): session closed for user root
+Jun 01 19:30:01 daria-VirtualBox CRON[10061]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 01 19:30:01 daria-VirtualBox CRON[10062]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun 01 19:30:01 daria-VirtualBox CRON[10061]: pam_unix(cron:session): session closed for user root
+Jun 01 19:33:48 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 02 06:02:56 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+Jun 02 06:02:56 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 02 06:02:56 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+Jun 02 06:02:56 daria-VirtualBox (cron)[621]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jun 02 06:02:56 daria-VirtualBox cron[621]: (CRON) INFO (pidfile fd = 3)
+Jun 02 06:02:56 daria-VirtualBox cron[621]: (CRON) INFO (Running @reboot jobs)
+Jun 02 06:04:01 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 02 06:17:01 daria-VirtualBox CRON[2497]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 02 06:17:01 daria-VirtualBox CRON[2498]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 02 06:17:01 daria-VirtualBox CRON[2497]: pam_unix(cron:session): session closed for user root
+Jun 02 07:03:48 daria-VirtualBox CRON[2545]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 02 07:03:48 daria-VirtualBox CRON[2565]: (root) CMD (test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.daily; })
+Jun 02 07:03:48 daria-VirtualBox CRON[2545]: pam_unix(cron:session): session closed for user root
+Jun 02 08:15:38 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 02 08:15:44 daria-VirtualBox CRON[2729]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 02 08:15:44 daria-VirtualBox CRON[2730]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun 02 08:15:44 daria-VirtualBox CRON[2729]: pam_unix(cron:session): session closed for user root
+Jun 02 08:17:01 daria-VirtualBox CRON[2756]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 02 08:17:01 daria-VirtualBox CRON[2757]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 02 08:17:01 daria-VirtualBox CRON[2756]: pam_unix(cron:session): session closed for user root
+Jun 02 08:30:01 daria-VirtualBox CRON[2918]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 02 08:30:01 daria-VirtualBox CRON[2919]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun 02 08:30:01 daria-VirtualBox CRON[2918]: pam_unix(cron:session): session closed for user root
+Jun 02 08:31:41 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 02 09:17:01 daria-VirtualBox CRON[4061]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 02 09:17:01 daria-VirtualBox CRON[4062]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 02 09:17:01 daria-VirtualBox CRON[4061]: pam_unix(cron:session): session closed for user root
+Jun 02 09:30:01 daria-VirtualBox CRON[4280]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 02 09:30:01 daria-VirtualBox CRON[4281]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun 02 09:30:01 daria-VirtualBox CRON[4280]: pam_unix(cron:session): session closed for user root
+Jun 02 09:32:15 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 02 11:00:25 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+Jun 02 11:00:25 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 02 11:00:25 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+Jun 02 11:00:25 daria-VirtualBox (cron)[621]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jun 02 11:00:25 daria-VirtualBox cron[621]: (CRON) INFO (pidfile fd = 3)
+Jun 02 11:00:25 daria-VirtualBox cron[621]: (CRON) INFO (Running @reboot jobs)
+Jun 02 11:03:22 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 02 11:17:01 daria-VirtualBox CRON[2619]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 02 11:17:01 daria-VirtualBox CRON[2620]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 02 11:17:01 daria-VirtualBox CRON[2619]: pam_unix(cron:session): session closed for user root
+Jun 02 11:30:01 daria-VirtualBox CRON[2942]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 02 11:30:01 daria-VirtualBox CRON[2943]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun 02 11:30:01 daria-VirtualBox CRON[2942]: pam_unix(cron:session): session closed for user root
+Jun 02 11:33:24 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 02 12:17:01 daria-VirtualBox CRON[3838]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 02 12:17:01 daria-VirtualBox CRON[3839]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 02 12:17:01 daria-VirtualBox CRON[3838]: pam_unix(cron:session): session closed for user root
+Jun 02 12:30:01 daria-VirtualBox CRON[4055]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 02 12:30:01 daria-VirtualBox CRON[4056]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun 02 12:30:01 daria-VirtualBox CRON[4055]: pam_unix(cron:session): session closed for user root
+Jun 02 12:33:24 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 02 13:17:01 daria-VirtualBox CRON[5179]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 02 13:17:01 daria-VirtualBox CRON[5180]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 02 13:17:01 daria-VirtualBox CRON[5179]: pam_unix(cron:session): session closed for user root
+Jun 02 16:06:13 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+Jun 02 16:06:13 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 02 16:06:13 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+Jun 02 16:06:13 daria-VirtualBox (cron)[624]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jun 02 16:06:13 daria-VirtualBox cron[624]: (CRON) INFO (pidfile fd = 3)
+Jun 02 16:06:13 daria-VirtualBox cron[624]: (CRON) INFO (Running @reboot jobs)
+Jun 02 16:08:20 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 02 16:17:01 daria-VirtualBox CRON[2495]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 02 16:17:01 daria-VirtualBox CRON[2496]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 02 16:17:01 daria-VirtualBox CRON[2495]: pam_unix(cron:session): session closed for user root
+Jun 02 16:30:01 daria-VirtualBox CRON[2749]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 02 16:30:01 daria-VirtualBox CRON[2750]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun 02 16:30:01 daria-VirtualBox CRON[2749]: pam_unix(cron:session): session closed for user root
+Jun 02 16:32:24 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 02 17:17:01 daria-VirtualBox CRON[3631]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 02 17:17:01 daria-VirtualBox CRON[3632]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 02 17:17:01 daria-VirtualBox CRON[3631]: pam_unix(cron:session): session closed for user root
+Jun 03 10:07:03 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jul 13 03:50:31 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+Jul 13 03:50:31 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jul 13 03:50:31 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+Jul 13 03:50:31 daria-VirtualBox (cron)[617]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jul 13 03:50:31 daria-VirtualBox cron[617]: (CRON) INFO (pidfile fd = 3)
+Jul 13 03:50:31 daria-VirtualBox cron[617]: (CRON) INFO (Running @reboot jobs)
+Jul 13 03:51:19 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jul 13 08:46:14 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+Jul 13 08:46:14 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+Jul 13 08:46:14 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+Jul 13 08:46:14 daria-VirtualBox anacron[617]: Anacron 2.3 started on 2025-07-13
+Jul 13 08:46:14 daria-VirtualBox anacron[617]: Will run job `cron.daily' in 5 min.
+Jul 13 08:46:14 daria-VirtualBox anacron[617]: Will run job `cron.weekly' in 10 min.
+Jul 13 08:46:14 daria-VirtualBox anacron[617]: Will run job `cron.monthly' in 15 min.
+Jul 13 08:46:14 daria-VirtualBox anacron[617]: Jobs will be executed sequentially
+Jul 13 08:46:14 daria-VirtualBox (cron)[620]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jul 13 08:46:14 daria-VirtualBox cron[620]: (CRON) INFO (pidfile fd = 3)
+Jul 13 08:46:14 daria-VirtualBox cron[620]: (CRON) INFO (Running @reboot jobs)
+Jul 13 08:51:14 daria-VirtualBox anacron[617]: Job `cron.daily' started
+Jul 13 08:51:14 daria-VirtualBox anacron[2384]: Updated timestamp for job `cron.daily' to 2025-07-13
+Jul 13 08:51:14 daria-VirtualBox anacron[617]: Job `cron.daily' terminated
+Jul 13 08:56:14 daria-VirtualBox anacron[617]: Job `cron.weekly' started
+Jul 13 08:56:14 daria-VirtualBox anacron[2556]: Updated timestamp for job `cron.weekly' to 2025-07-13
+Jul 13 08:56:14 daria-VirtualBox anacron[617]: Job `cron.weekly' terminated
+Jul 13 09:01:14 daria-VirtualBox anacron[617]: Job `cron.monthly' started
+Jul 13 09:01:14 daria-VirtualBox anacron[2811]: Updated timestamp for job `cron.monthly' to 2025-07-13
+Jul 13 09:01:14 daria-VirtualBox anacron[617]: Job `cron.monthly' terminated
+Jul 13 09:01:14 daria-VirtualBox anacron[617]: Normal exit (3 jobs run)
+Jul 13 09:01:14 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+Jul 13 09:17:01 daria-VirtualBox CRON[3291]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jul 13 09:17:01 daria-VirtualBox CRON[3292]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jul 13 09:17:01 daria-VirtualBox CRON[3291]: pam_unix(cron:session): session closed for user root
+Jul 13 09:30:01 daria-VirtualBox CRON[3659]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jul 13 09:30:01 daria-VirtualBox CRON[3660]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jul 13 09:30:01 daria-VirtualBox CRON[3659]: pam_unix(cron:session): session closed for user root
+Jul 13 10:24:57 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jul 13 10:30:05 daria-VirtualBox CRON[3744]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jul 13 10:30:05 daria-VirtualBox CRON[3746]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jul 13 10:30:05 daria-VirtualBox CRON[3744]: pam_unix(cron:session): session closed for user root
+Jul 13 11:04:02 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jul 14 03:33:40 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+Jul 14 03:33:40 daria-VirtualBox systemd[1]: Started anacron.service - Run anacron jobs.
+Jul 14 03:33:40 daria-VirtualBox anacron[619]: Anacron 2.3 started on 2025-07-14
+Jul 14 03:33:40 daria-VirtualBox anacron[619]: Will run job `cron.daily' in 5 min.
+Jul 14 03:33:40 daria-VirtualBox anacron[619]: Jobs will be executed sequentially
+Jul 14 03:33:40 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+Jul 14 03:33:40 daria-VirtualBox (cron)[622]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jul 14 03:33:40 daria-VirtualBox cron[622]: (CRON) INFO (pidfile fd = 3)
+Jul 14 03:33:40 daria-VirtualBox cron[622]: (CRON) INFO (Running @reboot jobs)
+Jul 14 03:38:40 daria-VirtualBox anacron[619]: Job `cron.daily' started
+Jul 14 03:38:40 daria-VirtualBox anacron[2120]: Updated timestamp for job `cron.daily' to 2025-07-14
+Jul 14 03:38:40 daria-VirtualBox anacron[619]: Job `cron.daily' terminated
+Jul 14 03:38:40 daria-VirtualBox anacron[619]: Normal exit (1 job run)
+Jul 14 03:38:40 daria-VirtualBox systemd[1]: anacron.service: Deactivated successfully.
+Jul 14 04:17:01 daria-VirtualBox CRON[2193]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jul 14 04:17:01 daria-VirtualBox CRON[2194]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jul 14 04:17:01 daria-VirtualBox CRON[2193]: pam_unix(cron:session): session closed for user root
+Jul 14 05:17:01 daria-VirtualBox CRON[2325]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jul 14 05:17:01 daria-VirtualBox CRON[2326]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jul 14 05:17:01 daria-VirtualBox CRON[2325]: pam_unix(cron:session): session closed for user root
+Jul 17 01:34:00 daria-VirtualBox systemd[1]: Started anacron.timer - Trigger anacron every hour.
+Jul 17 01:34:00 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jul 17 01:34:00 daria-VirtualBox systemd[1]: Started cron.service - Regular background program processing daemon.
+Jul 17 01:34:00 daria-VirtualBox (cron)[629]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jul 17 01:34:01 daria-VirtualBox cron[629]: (CRON) INFO (pidfile fd = 3)
+Jul 17 01:34:01 daria-VirtualBox cron[629]: (CRON) INFO (Running @reboot jobs)
+Jul 17 01:34:31 daria-VirtualBox systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jul 17 03:10:01 daria-VirtualBox CRON[4977]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jul 17 03:10:01 daria-VirtualBox CRON[4978]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r)
+Jul 17 03:10:01 daria-VirtualBox CRON[4977]: pam_unix(cron:session): session closed for user root
+Jul 17 03:17:01 daria-VirtualBox CRON[5081]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jul 17 03:17:01 daria-VirtualBox CRON[5082]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jul 17 03:17:01 daria-VirtualBox CRON[5081]: pam_unix(cron:session): session closed for user root
+Jul 17 04:17:01 daria-VirtualBox CRON[6178]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jul 17 04:17:01 daria-VirtualBox CRON[6179]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jul 17 04:17:01 daria-VirtualBox CRON[6178]: pam_unix(cron:session): session closed for user root
+Jul 17 05:17:01 daria-VirtualBox CRON[7613]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jul 17 05:17:01 daria-VirtualBox CRON[7614]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jul 17 05:17:01 daria-VirtualBox CRON[7613]: pam_unix(cron:session): session closed for user root
+Jul 17 06:17:01 daria-VirtualBox CRON[163521]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jul 17 06:17:01 daria-VirtualBox CRON[163522]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jul 17 06:17:01 daria-VirtualBox CRON[163521]: pam_unix(cron:session): session closed for user root

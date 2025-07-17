@@ -1,0 +1,1 @@
+/home/daria/log_manager/logs/auth/auth.log.filtered:Jul 13 19:01:00 localhost sshd[2345]: Failed password for invalid user root from 10.10.10.10 port 4242 ssh2

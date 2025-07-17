@@ -1,0 +1,1 @@
+/home/daria/log_manager/logs/auth/auth.log.filtered:Jul 14 16:11:22 localhost sudo:    user : authentication failure ; TTY=pts/1 ; PWD=/home/user ; USER=root

@@ -1,0 +1,72 @@
+2025-07-14T03:33:43.922836-04:00 daria-VirtualBox lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=113) by (uid=0)
+2025-07-14T03:33:43.985520-04:00 daria-VirtualBox systemd-logind[651]: New session c1 of user lightdm.
+2025-07-14T03:33:44.008831-04:00 daria-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=113) by lightdm(uid=0)
+2025-07-14T03:33:44.803680-04:00 daria-VirtualBox lightdm: gkr-pam: couldn't unlock the login keyring.
+2025-07-14T03:33:46.530600-04:00 daria-VirtualBox lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "daria"
+2025-07-14T03:34:14.756066-04:00 daria-VirtualBox lightdm: gkr-pam: unable to locate daemon control file
+2025-07-14T03:34:14.756230-04:00 daria-VirtualBox lightdm: gkr-pam: stashed password to try later in open session
+2025-07-14T03:34:14.852742-04:00 daria-VirtualBox lightdm: pam_unix(lightdm:session): session opened for user daria(uid=1000) by (uid=0)
+2025-07-14T03:34:14.854964-04:00 daria-VirtualBox systemd-logind[651]: Removed session c1.
+2025-07-14T03:34:14.869133-04:00 daria-VirtualBox systemd-logind[651]: New session c2 of user daria.
+2025-07-14T03:34:14.891185-04:00 daria-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user daria(uid=1000) by daria(uid=0)
+2025-07-14T03:34:15.147114-04:00 daria-VirtualBox lightdm: gkr-pam: unlocked login keyring
+2025-07-14T03:34:15.824746-04:00 daria-VirtualBox gnome-keyring-daemon[1273]: The Secret Service was already initialized
+2025-07-14T03:34:15.825216-04:00 daria-VirtualBox gnome-keyring-daemon[1505]: discover_other_daemon: 1
+2025-07-14T03:34:15.826366-04:00 daria-VirtualBox gnome-keyring-daemon[1503]: discover_other_daemon: 1
+2025-07-14T03:34:15.828217-04:00 daria-VirtualBox gnome-keyring-daemon[1273]: The PKCS#11 component was already initialized
+2025-07-14T03:34:15.828445-04:00 daria-VirtualBox gnome-keyring-daemon[1506]: discover_other_daemon: 1
+2025-07-14T03:34:17.670845-04:00 daria-VirtualBox polkitd[639]: Registered Authentication Agent for unix-session:c2 (system bus name :1.63 [cinnamon --replace], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-14T03:34:25.018725-04:00 daria-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2025-07-14T03:34:44.598844-04:00 daria-VirtualBox dbus-daemon[623]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-07-14T04:17:01.217663-04:00 daria-VirtualBox CRON[2193]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-14T04:17:01.226927-04:00 daria-VirtualBox CRON[2193]: pam_unix(cron:session): session closed for user root
+2025-07-14T04:25:55.211657-04:00 daria-VirtualBox dbus-daemon[623]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-07-14T05:02:06.540167-04:00 daria-VirtualBox cinnamon-screensaver-pam-helper: pam_unix(cinnamon-screensaver:auth): conversation failed
+2025-07-14T05:02:06.554929-04:00 daria-VirtualBox cinnamon-screensaver-pam-helper: pam_unix(cinnamon-screensaver:auth): auth could not identify password for [daria]
+2025-07-14T05:17:01.345224-04:00 daria-VirtualBox CRON[2325]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-14T05:17:01.356175-04:00 daria-VirtualBox CRON[2325]: pam_unix(cron:session): session closed for user root
+2025-07-17T01:34:02.365071-04:00 daria-VirtualBox systemd-logind[659]: New seat seat0.
+2025-07-17T01:34:02.365075-04:00 daria-VirtualBox systemd-logind[659]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-07-17T01:34:02.365078-04:00 daria-VirtualBox systemd-logind[659]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-07-17T01:34:02.365080-04:00 daria-VirtualBox systemd-logind[659]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-07-17T01:34:02.096509-04:00 daria-VirtualBox polkitd[646]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-17T01:34:02.100595-04:00 daria-VirtualBox polkitd[646]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-17T01:34:02.243499-04:00 daria-VirtualBox polkitd[646]: Finished loading, compiling and executing 14 rules
+2025-07-17T01:34:02.251025-04:00 daria-VirtualBox polkitd[646]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-07-17T01:34:05.517407-04:00 daria-VirtualBox lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=113) by (uid=0)
+2025-07-17T01:34:05.576638-04:00 daria-VirtualBox systemd-logind[659]: New session c1 of user lightdm.
+2025-07-17T01:34:05.613776-04:00 daria-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=113) by lightdm(uid=0)
+2025-07-17T01:34:06.148395-04:00 daria-VirtualBox lightdm: gkr-pam: couldn't unlock the login keyring.
+2025-07-17T01:34:08.020777-04:00 daria-VirtualBox lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "daria"
+2025-07-17T01:34:30.782045-04:00 daria-VirtualBox lightdm: gkr-pam: unable to locate daemon control file
+2025-07-17T01:34:30.783313-04:00 daria-VirtualBox lightdm: gkr-pam: stashed password to try later in open session
+2025-07-17T01:34:31.318924-04:00 daria-VirtualBox systemd-logind[659]: Removed session c1.
+2025-07-17T01:34:31.332159-04:00 daria-VirtualBox lightdm: pam_unix(lightdm:session): session opened for user daria(uid=1000) by (uid=0)
+2025-07-17T01:34:31.348358-04:00 daria-VirtualBox systemd-logind[659]: New session c2 of user daria.
+2025-07-17T01:34:30.733251-04:00 daria-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user daria(uid=1000) by daria(uid=0)
+2025-07-17T01:34:31.172977-04:00 daria-VirtualBox lightdm: gkr-pam: unlocked login keyring
+2025-07-17T01:34:32.646159-04:00 daria-VirtualBox gnome-keyring-daemon[1255]: The Secret Service was already initialized
+2025-07-17T01:34:32.646348-04:00 daria-VirtualBox gnome-keyring-daemon[1490]: discover_other_daemon: 1
+2025-07-17T01:34:32.652183-04:00 daria-VirtualBox gnome-keyring-daemon[1255]: The PKCS#11 component was already initialized
+2025-07-17T01:34:32.652585-04:00 daria-VirtualBox gnome-keyring-daemon[1491]: discover_other_daemon: 1
+2025-07-17T01:34:32.654310-04:00 daria-VirtualBox gnome-keyring-daemon[1492]: discover_other_daemon: 1
+2025-07-17T01:34:36.016738-04:00 daria-VirtualBox polkitd[646]: Registered Authentication Agent for unix-session:c2 (system bus name :1.64 [cinnamon --replace], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-17T01:34:41.080200-04:00 daria-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2025-07-17T01:35:04.194723-04:00 daria-VirtualBox dbus-daemon[630]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-07-17T02:31:33.222179-04:00 daria-VirtualBox systemd-logind[4264]: New seat seat0.
+2025-07-17T02:31:33.225144-04:00 daria-VirtualBox systemd-logind[4264]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-07-17T02:31:33.225249-04:00 daria-VirtualBox systemd-logind[4264]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-07-17T02:31:33.226308-04:00 daria-VirtualBox systemd-logind[4264]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-07-17T02:31:33.238908-04:00 daria-VirtualBox systemd-logind[4264]: New session c2 of user daria.
+2025-07-17T02:31:44.052469-04:00 daria-VirtualBox cinnamon-screensaver-pam-helper: gkr-pam: unlocked login keyring
+2025-07-17T02:33:14.476449-04:00 daria-VirtualBox dbus-daemon[630]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-07-17T03:10:01.546578-04:00 daria-VirtualBox CRON[4977]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-17T03:10:01.553799-04:00 daria-VirtualBox CRON[4977]: pam_unix(cron:session): session closed for user root
+2025-07-17T03:17:01.569214-04:00 daria-VirtualBox CRON[5081]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-17T03:17:01.577291-04:00 daria-VirtualBox CRON[5081]: pam_unix(cron:session): session closed for user root
+2025-07-17T04:17:01.776020-04:00 daria-VirtualBox CRON[6178]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-17T04:17:01.781774-04:00 daria-VirtualBox CRON[6178]: pam_unix(cron:session): session closed for user root
+2025-07-17T05:17:01.895663-04:00 daria-VirtualBox CRON[7613]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-17T05:17:01.902668-04:00 daria-VirtualBox CRON[7613]: pam_unix(cron:session): session closed for user root
+2025-07-17T06:17:01.982865-04:00 daria-VirtualBox CRON[163521]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-17T06:17:01.993002-04:00 daria-VirtualBox CRON[163521]: pam_unix(cron:session): session closed for user root

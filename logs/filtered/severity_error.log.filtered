@@ -1,0 +1,123 @@
+Jul 15 14:23:00 localhost kernel: ERROR simulated kernel panic
+Jul 15 14:23:00 localhost kernel: ERROR simulated kernel panic
+Jul 15 14:23:00 localhost kernel: ERROR simulated kernel panic
+Jul 15 14:23:00 localhost kernel: ERROR simulated kernel panic
+Jul 15 14:23:00 localhost kernel: ERROR simulated kernel panic
+Jul 15 14:23:00 localhost kernel: ERROR simulated kernel panic
+Jul 13 03:50:28 daria-VirtualBox kernel: RAS: Correctable Errors collector initialized.
+Jul 13 03:50:29 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Jul 13 03:50:29 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Jul 13 03:50:29 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Jul 13 03:50:32 daria-VirtualBox alsactl[733]: alsa-lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Jul 13 03:50:32 daria-VirtualBox udisksd[664]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+Jul 13 03:50:36 daria-VirtualBox pipewire[1094]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jul 13 03:50:36 daria-VirtualBox wireplumber[1097]: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
+Jul 13 03:50:44 daria-VirtualBox pipewire[1236]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jul 13 03:50:47 daria-VirtualBox udisksd[664]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+Jul 13 08:46:13 daria-VirtualBox kernel: RAS: Correctable Errors collector initialized.
+Jul 13 08:46:13 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Jul 13 08:46:13 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Jul 13 08:46:13 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Jul 13 08:46:15 daria-VirtualBox alsactl[720]: alsa-lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Jul 13 08:46:15 daria-VirtualBox udisksd[666]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+Jul 13 08:46:17 daria-VirtualBox pipewire[1076]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jul 13 08:46:17 daria-VirtualBox wireplumber[1079]: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
+Jul 13 08:46:23 daria-VirtualBox pipewire[1239]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jul 13 08:46:24 daria-VirtualBox udisksd[666]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+Jul 13 09:09:20 daria-VirtualBox gvfsd-network[3029]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Jul 13 09:09:20 daria-VirtualBox gvfsd-network[3029]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: mountpoint for org.gtk.vfs.mountpoint_wsdd already running
+Jul 13 09:09:26 daria-VirtualBox gvfsd-network[3029]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Jul 13 09:16:26 daria-VirtualBox gvfsd-network[3029]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Jul 13 09:16:32 daria-VirtualBox gvfsd-network[3029]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Jul 13 09:26:16 daria-VirtualBox gvfsd-network[3029]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Jul 13 09:26:20 daria-VirtualBox gvfsd-network[3029]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Jul 13 11:04:15 daria-VirtualBox cinnamon-screensaver-pam-helper[3814]: pam_ecryptfs: seteuid error
+Jul 13 11:04:45 daria-VirtualBox org.cinnamon.ScreenSaver[3714]: Error in sys.excepthook:
+Jul 13 11:04:45 daria-VirtualBox org.cinnamon.ScreenSaver[3714]: Error in sys.excepthook:
+Jul 13 11:04:45 daria-VirtualBox org.cinnamon.ScreenSaver[3714]: Error in sys.excepthook:
+Jul 13 11:04:45 daria-VirtualBox org.cinnamon.ScreenSaver[3714]: Error in sys.excepthook:
+Jul 13 11:09:09 daria-VirtualBox gvfsd-network[3029]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Jul 14 03:33:38 daria-VirtualBox kernel: RAS: Correctable Errors collector initialized.
+Jul 14 03:33:38 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Jul 14 03:33:38 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Jul 14 03:33:38 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Jul 14 03:33:41 daria-VirtualBox udisksd[662]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+Jul 14 03:33:41 daria-VirtualBox alsactl[784]: alsa-lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Jul 14 03:33:44 daria-VirtualBox pipewire[1121]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jul 14 03:33:45 daria-VirtualBox wireplumber[1124]: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
+Jul 14 03:34:15 daria-VirtualBox pipewire[1268]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jul 14 03:34:16 daria-VirtualBox udisksd[662]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+Jul 17 01:33:57 daria-VirtualBox kernel: RAS: Correctable Errors collector initialized.
+Jul 17 01:33:58 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Jul 17 01:33:58 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Jul 17 01:33:58 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Jul 17 01:34:02 daria-VirtualBox alsactl[736]: alsa-lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Jul 17 01:34:02 daria-VirtualBox udisksd[671]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+Jul 17 01:34:06 daria-VirtualBox pipewire[1103]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jul 17 01:34:06 daria-VirtualBox wireplumber[1106]: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
+Jul 17 01:34:31 daria-VirtualBox pipewire[1250]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jul 17 01:34:34 daria-VirtualBox udisksd[671]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+Jul 17 02:31:44 daria-VirtualBox cinnamon-screensaver-pam-helper[4275]: pam_ecryptfs: seteuid error
+Jul 17 02:32:14 daria-VirtualBox org.cinnamon.ScreenSaver[4161]: Error in sys.excepthook:
+Jul 17 02:32:14 daria-VirtualBox org.cinnamon.ScreenSaver[4161]: Error in sys.excepthook:
+Jul 17 02:32:14 daria-VirtualBox org.cinnamon.ScreenSaver[4161]: Error in sys.excepthook:
+Jul 17 02:32:14 daria-VirtualBox org.cinnamon.ScreenSaver[4161]: Error in sys.excepthook:
+Jul 15 14:23:00 localhost kernel: ERROR simulated kernel panic
+Jul 13 03:50:28 daria-VirtualBox kernel: RAS: Correctable Errors collector initialized.
+Jul 13 03:50:29 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Jul 13 03:50:29 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Jul 13 03:50:29 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Jul 13 03:50:32 daria-VirtualBox alsactl[733]: alsa-lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Jul 13 03:50:32 daria-VirtualBox udisksd[664]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+Jul 13 03:50:36 daria-VirtualBox pipewire[1094]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jul 13 03:50:36 daria-VirtualBox wireplumber[1097]: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
+Jul 13 03:50:44 daria-VirtualBox pipewire[1236]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jul 13 03:50:47 daria-VirtualBox udisksd[664]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+Jul 13 08:46:13 daria-VirtualBox kernel: RAS: Correctable Errors collector initialized.
+Jul 13 08:46:13 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Jul 13 08:46:13 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Jul 13 08:46:13 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Jul 13 08:46:15 daria-VirtualBox alsactl[720]: alsa-lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Jul 13 08:46:15 daria-VirtualBox udisksd[666]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+Jul 13 08:46:17 daria-VirtualBox pipewire[1076]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jul 13 08:46:17 daria-VirtualBox wireplumber[1079]: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
+Jul 13 08:46:23 daria-VirtualBox pipewire[1239]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jul 13 08:46:24 daria-VirtualBox udisksd[666]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+Jul 13 09:09:20 daria-VirtualBox gvfsd-network[3029]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Jul 13 09:09:20 daria-VirtualBox gvfsd-network[3029]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: mountpoint for org.gtk.vfs.mountpoint_wsdd already running
+Jul 13 09:09:26 daria-VirtualBox gvfsd-network[3029]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Jul 13 09:16:26 daria-VirtualBox gvfsd-network[3029]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Jul 13 09:16:32 daria-VirtualBox gvfsd-network[3029]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Jul 13 09:26:16 daria-VirtualBox gvfsd-network[3029]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Jul 13 09:26:20 daria-VirtualBox gvfsd-network[3029]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Jul 13 11:04:15 daria-VirtualBox cinnamon-screensaver-pam-helper[3814]: pam_ecryptfs: seteuid error
+Jul 13 11:04:45 daria-VirtualBox org.cinnamon.ScreenSaver[3714]: Error in sys.excepthook:
+Jul 13 11:04:45 daria-VirtualBox org.cinnamon.ScreenSaver[3714]: Error in sys.excepthook:
+Jul 13 11:04:45 daria-VirtualBox org.cinnamon.ScreenSaver[3714]: Error in sys.excepthook:
+Jul 13 11:04:45 daria-VirtualBox org.cinnamon.ScreenSaver[3714]: Error in sys.excepthook:
+Jul 13 11:09:09 daria-VirtualBox gvfsd-network[3029]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Jul 14 03:33:38 daria-VirtualBox kernel: RAS: Correctable Errors collector initialized.
+Jul 14 03:33:38 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Jul 14 03:33:38 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Jul 14 03:33:38 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Jul 14 03:33:41 daria-VirtualBox udisksd[662]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+Jul 14 03:33:41 daria-VirtualBox alsactl[784]: alsa-lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Jul 14 03:33:44 daria-VirtualBox pipewire[1121]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jul 14 03:33:45 daria-VirtualBox wireplumber[1124]: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
+Jul 14 03:34:15 daria-VirtualBox pipewire[1268]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jul 14 03:34:16 daria-VirtualBox udisksd[662]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+Jul 17 01:33:57 daria-VirtualBox kernel: RAS: Correctable Errors collector initialized.
+Jul 17 01:33:58 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Jul 17 01:33:58 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Jul 17 01:33:58 daria-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Jul 17 01:34:02 daria-VirtualBox alsactl[736]: alsa-lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Jul 17 01:34:02 daria-VirtualBox udisksd[671]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+Jul 17 01:34:06 daria-VirtualBox pipewire[1103]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jul 17 01:34:06 daria-VirtualBox wireplumber[1106]: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
+Jul 17 01:34:31 daria-VirtualBox pipewire[1250]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jul 17 01:34:34 daria-VirtualBox udisksd[671]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': Unexpected sense data returned:
+Jul 17 02:31:44 daria-VirtualBox cinnamon-screensaver-pam-helper[4275]: pam_ecryptfs: seteuid error
+Jul 17 02:32:14 daria-VirtualBox org.cinnamon.ScreenSaver[4161]: Error in sys.excepthook:
+Jul 17 02:32:14 daria-VirtualBox org.cinnamon.ScreenSaver[4161]: Error in sys.excepthook:
+Jul 17 02:32:14 daria-VirtualBox org.cinnamon.ScreenSaver[4161]: Error in sys.excepthook:
+Jul 17 02:32:14 daria-VirtualBox org.cinnamon.ScreenSaver[4161]: Error in sys.excepthook:
